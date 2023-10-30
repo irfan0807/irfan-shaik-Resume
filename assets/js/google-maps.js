@@ -1,6 +1,6 @@
 function initMap() {
     // Latitude and Longitude
-    var myLatLng = {lat: -6.207690, lng: 106.985270};
+    var myLatLng = { lat: 12.9716, lng: 77.5946 };
 
     var map = new google.maps.Map(document.getElementById('google-maps'), {
         zoom: 17,
@@ -10,6 +10,6 @@ function initMap() {
     var marker = new google.maps.Marker({
         position: myLatLng,
         map: map,
-        title: 'South Jakarta, INA' // Title Location
+        title: 'Banglore' // Title Location
     });
 }
